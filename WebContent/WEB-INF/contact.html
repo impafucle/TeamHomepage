@@ -17,5 +17,25 @@
     <li><a href="contect.html">연락</a></li>
 </ul>
 </div>
+  <div id="content">
+    <h1>연락하기</h1>
+    <form method="post" action="#">
+      <fieldset>
+        <p>
+         <label for="name">이름:</label>
+         <input type="text" id="name" name="name" value="연락 받을 분" class="required" />
+        </p>
+        <p>
+         <label for="email">전자메일:</label>
+         <input type="text" id="email" name="email" value="연락 받을 전자메일" class="email required" />
+        </p>
+        <p>
+         <label for="message">내용:</label>
+         <textarea cols="45" rows="7" id="message" name="message" class="required">전하실 내용을 적어 주세요. 밴드가 결성되면 연락 드리겠습니다.</textarea>
+        </p>
+        <input type="submit" value="보내기" />
+       </fieldset>
+    </form>
+  </div>
 </body>
 </html>
